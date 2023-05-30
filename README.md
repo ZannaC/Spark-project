@@ -1,1 +1,1 @@
-# Spark-project
+Creative Spark - web design project

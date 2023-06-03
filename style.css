@@ -94,7 +94,12 @@ a {
   border-bottom: 0.06rem solid rgb(207, 213, 220);
 }
 
-.yellow-btn-square a img {
+.email-textarea {
+  height: 30px;
+  width: 144px;
+}
+
+.email-submit-btn a img {
   /* width: 100%;
   height: auto;
   max-width: 100%; */
@@ -153,17 +158,20 @@ a {
     padding: 0.93% 2.77% 1.88% 2.89%;
     gap: 2.5%;
   }
-  .logo-block img {
-    width: 25%;
+  .footer-logo {
+    display: none;
+    /* width: 50%;
     height: auto;
-    max-width: 25%;
-    justify-content: center;
+    max-width: 100%;
+    display: flex;
+    justify-content: center; */
   }
 
   .all-rights {
-    display: flex;
+    display: none;
+    /* display: flex;
     justify-content: center;
-    font-size: 0.87rem;
+    font-size: 0.87rem; */
   }
   .footer-subscribe {
     padding-top: 2.2rem;

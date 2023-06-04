@@ -12,7 +12,6 @@
 
 :root {
   box-sizing: border-box;
-  /* font-size: 16px; */
   font-family: Lato;
   font-weight: 400;
   color: rgba(0, 0, 0, 1);
@@ -31,29 +30,18 @@
 }
 
 [class*="-container"] {
-  /* max-width: 1900px; */
   max-width: 1900px;
   margin: 0px auto;
   /* padding: 0px 15px; */
   background-color: #ffffff;
 }
 
-/*//////////////////////////////////
-
-/*320px — 480px: Mobile devices
-481px — 768px: iPads, Tablets
-769px — 1024px: Small screens, laptops
-1025px — 1200px: Desktops, large screens
-1201px and more —  Extra large screens, TV*/
 /*//////////////// Footer ////////////////////////*/
+
 .logo-block img {
   width: 100%;
   height: auto;
   max-width: 100%;
-  /* box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  max-width: 100%; */
 }
 
 .footer-subscribe {
@@ -82,31 +70,20 @@ a {
 }
 
 .email-btn {
-  /* width: 100%;
-  height: auto;
-  max-width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* box-sizing: border-box;
-  max-width: 18rem; */
+  box-sizing: border-box;
+  max-width: 18rem;
+  height: auto;
   padding-top: 1.87rem;
   border-bottom: 0.06rem solid rgb(207, 213, 220);
 }
 
-.email-textarea {
-  height: 30px;
-  width: 144px;
-}
-
 .email-submit-btn a img {
-  /* width: 100%;
+  width: 100%;
   height: auto;
-  max-width: 100%; */
-  box-sizing: border-box;
-  width: 3.12rem;
-  height: 3.12rem;
-  padding: 0;
+  max-width: 100%;
 }
 
 .btn-socialMedia {
@@ -116,13 +93,10 @@ a {
   align-items: flex-end;
 }
 
-.yellow-btn a img {
+.back-to-top-btn a img {
   width: 100%;
   height: auto;
   max-width: 100%;
-  /* box-sizing: border-box;
-  width: 3.12rem;
-  height: 3.12rem; */
 }
 
 .socialMedia {
@@ -141,7 +115,7 @@ a {
   justify-content: space-between;
   box-sizing: border-box;
   /* flex: 0 1 25%; */
-  max-height: 544px;
+  height: 28.63%;
   /* padding: 60px 177px 120px 185px; */
   padding: 3.2% 9.3% 6.3% 9.7%;
   /* padding: 3.75rem 11.06rem 7.5rem 11.56rem; */
@@ -150,36 +124,57 @@ a {
   /* gap: 123px; */
 }
 
-/*///////////////////////////////////*/
-@media (max-width: 688px) {
+/*/////////// 320px PORTRAIT /////////////////////////*/
+@media (max-width: 688px) and (orientation: portrait) {
   .footer-container {
     display: flex;
     flex-direction: column;
     padding: 0.93% 2.77% 1.88% 2.89%;
     gap: 2.5%;
   }
-  .footer-logo {
-    display: none;
-    /* width: 50%;
-    height: auto;
-    max-width: 100%;
+
+  .services-block {
     display: flex;
-    justify-content: center; */
+    order: 1;
+  }
+
+  .about-block {
+    display: flex;
+    order: 2;
+  }
+
+  .logo-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 3;
+  }
+
+  .footer-logo {
+    width: 50%;
+    height: auto;
+    max-width: 50%;
+    order: 3;
+    padding-top: 0.5rem;
   }
 
   .all-rights {
-    display: none;
-    /* display: flex;
-    justify-content: center;
-    font-size: 0.87rem; */
+    order: 4;
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
   }
+
   .footer-subscribe {
-    padding-top: 2.2rem;
+    order: 1;
+    padding-top: 1rem;
     font-size: 1rem;
   }
+
   .email-btn {
     padding-top: 0.47rem;
+    order: 2;
   }
+
   li {
     padding-bottom: 0.31rem;
   }
@@ -187,7 +182,49 @@ a {
   .btn-socialMedia {
     display: flex;
     flex-direction: row-reverse;
+    order: 9;
   }
+
+  .socialMedia {
+    padding-top: 1.5rem;
+  }
+
+  .socialMedia img {
+    padding-left: 0.63rem;
+  }
+}
+
+/*/////////// 320px LANDSCAPE /////////////////////////*/
+@media (max-height: 688px) and (orientation: landscape) {
+  .footer-container {
+    padding: 0.93% 2.77% 1.88% 2.89%;
+    gap: 2.5%;
+  }
+
+  .footer-logo {
+    width: 70%;
+    height: auto;
+    max-width: 70%;
+    padding-top: 0.5rem;
+  }
+
+  .all-rights {
+    font-size: 0.8rem;
+  }
+
+  .footer-subscribe {
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .email-btn {
+    padding-top: 0.47rem;
+  }
+
+  li {
+    padding-bottom: 0.2rem;
+  }
+
   .socialMedia {
     padding-top: 1.5rem;
   }
@@ -203,19 +240,6 @@ a {
     padding: 2.56% 4.76% 5.04% 4.97%;
     gap: 9%;
   }
-
-  .footer-subscribe {
-    padding-top: 4.8rem;
-  }
-
-  .email-btn {
-    max-width: 12rem;
-    padding-top: 1rem;
-  }
-
-  .socialMedia {
-    padding-top: 5.63rem;
-  }
 }
 
 /* Medium screens */
@@ -224,19 +248,6 @@ a {
     padding: 2.56% 5.63% 5.04% 5.63%;
     gap: 10%;
   }
-
-  .footer-subscribe {
-    padding-top: 6.4rem;
-  }
-
-  .email-btn {
-    max-width: 14rem;
-    padding-top: 1.25rem;
-  }
-
-  .socialMedia {
-    padding-top: 12.5rem;
-  }
 }
 
 /* Large screens */
@@ -244,18 +255,5 @@ a {
   .footer-container {
     padding: 2.56% 7.44% 5.04% 7.76%;
     gap: 11%;
-  }
-
-  .footer-subscribe {
-    padding-top: 8.8rem;
-  }
-
-  .email-btn {
-    max-width: 18rem;
-    padding-top: 1.87rem;
-  }
-
-  .socialMedia {
-    padding-top: 18.63rem;
   }
 }

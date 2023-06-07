@@ -67,7 +67,7 @@ h5 {
   align-content: center;
   flex-wrap: wrap;
   max-width: 118.75rem;
-  height: 105.18rem;
+  /* height: 105.18rem; */
   /* padding: 162.5px 165px 58px 171px; */
   padding: 10.16rem 10.31rem 3.63rem 10.69rem;
   /* padding: 5.88% 8.68% 3.05% 9%; */
@@ -75,7 +75,8 @@ h5 {
 
 .full-service-agency-columns {
   display: flex;
-  height: 48.25rem;
+  /* height: auto; */
+  /* height: 48.25rem; */
   padding: 6.15rem 0.16rem 6.53rem 0.87rem;
   /* padding: 5.18% 0.21% 5.5% 0.74%; */
   /* padding: 98.5px 4px 104.5px 14px; */
@@ -119,7 +120,7 @@ h5 {
   max-width: 100%;
   padding-bottom: 1.71rem;
   padding-left: 6.81rem;
-  border-radius: 59px;
+  border-radius: 3.68rem;
   filter: drop-shadow(0px 4px 44px rgba(0, 0, 0, 0.25));
 }
 
@@ -128,15 +129,15 @@ h5 {
   position: relative;
   height: 27.62rem;
   background-color: rgba(239, 239, 241, 1);
-  border-radius: 35px;
+  border-radius: 2.18rem;
 }
 
 .full-service-agency-bench-image {
   background-position: bottom left;
   background-image: url("images/fullServiceAgency-images/bench.jpg");
   background-repeat: no-repeat;
-  box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.1);
-  border-radius: 35px;
+  box-shadow: 0rem 0.25rem 4rem rgba(0, 0, 0, 0.1);
+  border-radius: 2.18rem;
   box-sizing: border-box;
   width: 97.75rem;
   height: 27.62rem;
@@ -152,7 +153,7 @@ h5 {
 
 .full-service-agency-bench-subscribe {
   position: absolute;
-  left: 725px;
+  left: 45.31rem;
   /* top: 136.5px; */
   /* flex-direction: column; */
   box-sizing: border-box;
@@ -167,10 +168,10 @@ h5 {
 .full-service-agency-bench-subscribeBtn {
   display: flex;
   box-sizing: border-box;
-  align-content: center;
+  align-items: center;
   justify-content: space-around;
   background-color: rgba(249, 249, 249, 1);
-  border-radius: 19px;
+  border-radius: 1.18rem;
   max-width: 28.12rem;
   max-height: 3.62rem;
   margin-top: 1.25rem;
@@ -185,7 +186,7 @@ h5 {
 .email-btn-input {
   box-sizing: border-box;
   font-size: 1.25rem;
-  max-width: 183px;
+  max-width: 11.43rem;
   background: none;
 }
 
@@ -289,6 +290,97 @@ a {
 
 /*/////////// 320px PORTRAIT /////////////////////////*/
 @media (max-width: 688px) and (orientation: portrait) {
+  .title {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .colored-text {
+    color: rgba(254, 200, 61, 1);
+  }
+
+  .bold-text {
+    font-size: 1.25rem;
+    letter-spacing: 0.01rem;
+    padding-top: 1rem;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+  }
+
+  .full-service-agency-statistics h5 {
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.25rem;
+  }
+
+  .full-service-agency-statistics {
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    max-width: 75%;
+  }
+
+  .full-service-agency-statistics img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .full-service-agency-globe {
+    display: none;
+  }
+
+  .full-service-agency-container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    /* height: 85rem; */
+  }
+
+  .full-service-agency-columns {
+    justify-content: center;
+    /* height: 48.25rem; */
+    padding: 0.05% 0.05% 0.05% 0.05%;
+  }
+
+  .full-service-agency-bench {
+    /* padding-top: 1rem; */
+    height: 26rem;
+  }
+
+  .full-service-agency-bench-image {
+    position: relative;
+    width: 20rem;
+    height: auto;
+    background-position: bottom center;
+    padding-top: 1rem;
+  }
+
+  .full-service-agency-bench-subscribe {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    max-width: 19.32rem;
+    max-height: 14.82rem;
+    padding: 0.5%;
+  }
+
+  .bench-subscribeBtn img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /*//////////////////////////////////////////////////////////*/
+
   .footer-container {
     display: flex;
     flex-direction: column;
@@ -359,6 +451,46 @@ a {
 
 /*/////////// 320px LANDSCAPE /////////////////////////*/
 @media (max-height: 688px) and (orientation: landscape) {
+  .full-service-agency-statistics {
+    justify-content: center;
+    width: 75%;
+    height: auto;
+    max-width: 75%;
+  }
+
+  .full-service-agency-globe {
+    display: none;
+  }
+
+  .full-service-agency-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0% 2% 0% 2%;
+    /* height: 85rem; */
+  }
+
+  .full-service-agency-columns {
+    justify-content: center;
+    height: 48.25rem;
+    padding: 3.8% 0.1% 4.1% 0.1%;
+  }
+
+  .full-service-agency-bench-image {
+    position: relative;
+    width: 48rem;
+    height: auto;
+    background-position: bottom center;
+  }
+  .full-service-agency-bench-subscribe {
+    position: absolute;
+    left: 23%;
+    top: 5%;
+    box-sizing: border-box;
+    max-width: 25.77rem;
+    max-height: 19.77rem;
+    padding: 0.5%;
+  }
+  /*//////////////////////////////////////////////////////////*/
   .footer-container {
     padding: 0.93% 2.77% 1.88% 2.89%;
     gap: 2.5%;
@@ -403,10 +535,83 @@ a {
     padding: 2.56% 4.76% 5.04% 4.97%;
     gap: 9%;
   }
+
+  .full-service-agency-container {
+    padding: 5.88% 2.17% 3.05% 2.25%;
+    justify-content: center;
+  }
 }
 
 /* Medium screens */
 @media (min-width: 768px) and (max-width: 1023px) {
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .colored-text {
+    color: rgba(254, 200, 61, 1);
+  }
+
+  .bold-text {
+    font-size: 1.87rem;
+    font-weight: 700;
+    letter-spacing: 0.01rem;
+    padding-top: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+  }
+
+  h5 {
+    /* display: block; */
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .full-service-agency-statistics {
+    justify-content: center;
+    width: 75%;
+    height: auto;
+    max-width: 75%;
+  }
+
+  .full-service-agency-globe {
+    display: none;
+  }
+
+  .full-service-agency-container {
+    display: flex;
+    justify-content: flex-center;
+    padding: 0% 2% 0% 2%;
+    height: 85rem;
+  }
+
+  .full-service-agency-columns {
+    justify-content: center;
+    height: 48.25rem;
+    padding: 3.8% 0.1% 4.1% 0.1%;
+  }
+
+  .full-service-agency-bench-image {
+    position: relative;
+    width: 48rem;
+    height: auto;
+    background-position: bottom center;
+  }
+  .full-service-agency-bench-subscribe {
+    position: absolute;
+    left: 23%;
+    top: 5%;
+    box-sizing: border-box;
+    max-width: 25.77rem;
+    max-height: 19.77rem;
+    padding: 0.5%;
+  }
+
   .footer-container {
     padding: 2.56% 5.63% 5.04% 5.63%;
     gap: 10%;
@@ -418,5 +623,8 @@ a {
   .footer-container {
     padding: 2.56% 7.44% 5.04% 7.76%;
     gap: 11%;
+  }
+  .full-service-agency-container {
+    padding: 5.88% 6.51% 3.05% 6.75%;
   }
 }

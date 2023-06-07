@@ -37,12 +37,9 @@
 }
 
 /*//////////////// full-service-agency section ////////////////////////*/
-/* .title {
-  display: inline-block;
-} */
 
 h3 {
-  font-size: 39px;
+  font-size: 2.44rem;
   font-weight: 700;
 }
 
@@ -51,15 +48,15 @@ h3 {
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 h5 {
   /* display: block; */
   justify-content: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
@@ -69,38 +66,41 @@ h5 {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  max-width: 1900px;
-  height: 1815px;
-  padding: 162.5px 165px 58px 171px;
+  max-width: 118.75rem;
+  height: 105.18rem;
+  /* padding: 162.5px 165px 58px 171px; */
+  padding: 10.16rem 10.31rem 3.63rem 10.69rem;
+  /* padding: 5.88% 8.68% 3.05% 9%; */
 }
 
 .full-service-agency-columns {
   display: flex;
-  height: 772px;
-  padding: 98.5px 4px 104.5px 14px;
+  height: 48.25rem;
+  padding: 6.15rem 0.16rem 6.53rem 0.87rem;
+  /* padding: 5.18% 0.21% 5.5% 0.74%; */
+  /* padding: 98.5px 4px 104.5px 14px; */
 }
 
 .full-service-agency-statistics {
   display: flex;
   flex-direction: column;
-  width: 699px;
-
+  width: 48.25rem;
   /* height: 772px; */
 }
 
 .full-service-agency-statistics h5 {
-  max-width: 643px;
+  max-width: 40.18rem;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 36px;
-  letter-spacing: 0.2px;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.01rem;
 }
 
 .bold-text {
-  font-size: 30px;
+  font-size: 1.87rem;
   font-weight: 700;
-  letter-spacing: 0.2px;
-  padding-top: 69px;
+  letter-spacing: 0.01rem;
+  padding-top: 4.31rem;
 }
 
 .full-service-agency-statistics img {
@@ -110,29 +110,36 @@ h5 {
 }
 
 .full-service-agency-globe {
-  width: 714px;
+  width: 44.62rem;
 }
 
 .full-service-agency-globe img {
   width: 100%;
   height: auto;
   max-width: 100%;
-  padding-bottom: 27.5px;
-  padding-left: 109px;
+  padding-bottom: 1.71rem;
+  padding-left: 6.81rem;
+  border-radius: 59px;
+  filter: drop-shadow(0px 4px 44px rgba(0, 0, 0, 0.25));
 }
 
 .full-service-agency-bench {
+  display: flex;
+  position: relative;
+  height: 27.62rem;
   background-color: rgba(239, 239, 241, 1);
+  border-radius: 35px;
 }
 
 .full-service-agency-bench-image {
   background-position: bottom left;
   background-image: url("images/fullServiceAgency-images/bench.jpg");
-  /* background-size: 100%; */
   background-repeat: no-repeat;
+  box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
   box-sizing: border-box;
-  width: 1564px;
-  height: 442px;
+  width: 97.75rem;
+  height: 27.62rem;
 }
 
 .full-service-agency img,
@@ -144,17 +151,46 @@ h5 {
 }
 
 .full-service-agency-bench-subscribe {
-  display: flex;
-  flex-direction: column;
-  max-width: 550px;
-  max-height: 422px;
-  padding-top: 136.5px;
-  padding-bottom: 135px;
+  position: absolute;
+  left: 725px;
+  /* top: 136.5px; */
+  /* flex-direction: column; */
+  box-sizing: border-box;
+  max-width: 34.37rem;
+  max-height: 26.37rem;
+  padding-top: 8.53rem;
+  padding-bottom: 8.43rem;
+  padding-left: 3.12rem;
+  padding-right: 3.25rem;
 }
+
 .full-service-agency-bench-subscribeBtn {
   display: flex;
-  align-items: center;
-  max-width: 450px;
+  box-sizing: border-box;
+  align-content: center;
+  justify-content: space-around;
+  background-color: rgba(249, 249, 249, 1);
+  border-radius: 19px;
+  max-width: 28.12rem;
+  max-height: 3.62rem;
+  margin-top: 1.25rem;
+}
+
+.label {
+  box-sizing: border-box;
+  padding-left: 1.25rem;
+  padding-top: 1.18rem;
+}
+
+.email-btn-input {
+  box-sizing: border-box;
+  font-size: 1.25rem;
+  max-width: 183px;
+  background: none;
+}
+
+.bench-subscribeBtn {
+  padding-right: 3.81rem;
 }
 
 .bench-subscribeBtn img {
@@ -162,6 +198,7 @@ h5 {
   height: auto;
   max-width: 100%;
 }
+
 /*//////////////// Footer ////////////////////////*/
 
 .logo-block img {

@@ -1,0 +1,29 @@
+.whatWeOffer {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  height: 297px;
+}
+
+.whatWeOffer-block-image {
+  width: 343px;
+  height: 249px;
+}
+.whatWeOffer-block-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 343px;
+  height: 249px;
+}
+
+h3 {
+  font-size: 1.63rem;
+  font-weight: 400;
+}
+
+.whatWeOffer-btn {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,32 +1,11 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", function () {
-  const container = document.getElementById("whatWeOffer");
+  const block = document.getElementById("whatWeOffer");
   const infoData = [
     {
       image: "images/whatWeOffer-images/logoDesign.png",
       theme: "Logo Design",
-      info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
-    },
-
-    {
-      image: "images/whatWeOffer-images/mobAppDevelop.png",
-      theme: "Mobile App Development",
-      info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
-    },
-    {
-      image: "images/whatWeOffer-images/videoEditing.png",
-      theme: "Video Editing",
-      info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
-    },
-    {
-      image: "images/whatWeOffer-images/logoDesign2.png",
-      theme: "Logo Design",
-      info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
-    },
-    {
-      image: "images/whatWeOffer-images/videoEditing.png",
-      theme: "Video Editing",
       info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
     },
     {
@@ -35,8 +14,18 @@ document.addEventListener("DOMContentLoaded", function () {
       info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
     },
     {
+      image: "images/whatWeOffer-images/mobAppDevelop.png",
+      theme: "Mobile App Development",
+      info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
+    },
+    {
       image: "images/whatWeOffer-images/2DAnimation.png",
       theme: "2D Animation",
+      info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
+    },
+    {
+      image: "images/whatWeOffer-images/videoEditing.png",
+      theme: "Video Editing",
       info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
     },
     {
@@ -45,10 +34,21 @@ document.addEventListener("DOMContentLoaded", function () {
       info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
     },
     {
+      image: "images/whatWeOffer-images/logoDesign2.png",
+      theme: "Logo Design",
+      info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
+    },
+    {
       image: "images/whatWeOffer-images/websiteDevelop.png",
       theme: "Product Branding",
       info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
     },
+    {
+      image: "images/whatWeOffer-images/videoEditing.png",
+      theme: "Video Editing",
+      info: "Need a quality, custom logo? Our team will create a stunning, original design for you that will make your business stand out from the ...",
+    },
+
     {
       image: "images/whatWeOffer-images/productBranding.png",
       theme: "Product Brandingt",
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   infoData.forEach(function (data) {
     const infoBlock = document.createElement("div");
-    infoBlock.classList.add("whatWeOffer");
+    infoBlock.classList.add("what-We-Offer");
 
     const repeatBlockElement = document.createElement("div");
     repeatBlockElement.classList.add("whatWeOffer-block");
@@ -91,6 +91,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnArrowElement = document.createElement("img");
     btnArrowElement.src = "images/whatWeOffer-images/arrow-right.svg";
 
+    block.appendChild(infoBlock);
+
     infoBlock.appendChild(repeatBlockElement);
     repeatBlockElement.appendChild(imageElement);
     repeatBlockElement.appendChild(blockElement);
@@ -101,7 +103,5 @@ document.addEventListener("DOMContentLoaded", function () {
     btnElement.appendChild(btnTextElement);
     btnElement.appendChild(btnLinkElement);
     btnElement.appendChild(btnArrowElement);
-
-    container.appendChild(infoBlock);
   });
 });

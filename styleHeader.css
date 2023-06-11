@@ -1,21 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  box-sizing: border-box;
+  font-family: Lato;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+[class*="-container"] {
+  max-width: 1900px;
+  margin: 0px auto;
+}
+
+/*//////////////// Header ////////////////////////*/
 .header-container {
   box-sizing: border-box;
   background-image: url("images/header-images/background.png");
-  border: 1px solid rgba(250, 255, 2, 0.21);
-  box-shadow: 0px 4px 60px #c7b7b7;
-  height: 1079px;
-  background-color: rgba(196, 196, 196, 1);
-  order: 1;
+  background-repeat: no-repeat;
+  box-shadow: 0rem 0.25rem 3.75rem #c7b7b7;
+  background-color: rgba(236, 236, 236, 1);
 }
 
 .socialMedia-header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  gap: 24px;
+  gap: 1.5rem;
   box-sizing: border-box;
-  padding-top: 13.86px;
-  padding-right: 143px;
+  padding-top: 0.86rem;
+  padding-right: 8.93rem;
 }
 
 .logo-burgerMenu {
@@ -23,40 +51,41 @@
   justify-content: flex-end;
   align-items: center;
   box-sizing: border-box;
-  padding-top: 101.86px;
-  padding-bottom: 230px;
+  padding-top: 2.3rem;
+  padding-bottom: 14.37rem;
 }
 
 .logo {
   box-sizing: border-box;
-  width: 631px;
-  height: 131px;
-  padding-right: 77px;
+  width: 39.43rem;
+  height: 8.18rem;
+  padding-right: 4.81rem;
 }
 
-.burgerMenu {
+img.burgerMenu {
   box-sizing: border-box;
-  width: 71px;
-  height: 37px;
-  padding-right: 140px;
+  height: 3.43rem;
+  padding-right: 8.75rem;
   color: rgba(97, 84, 84, 1);
-  order: 2;
+  align-items: center;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 45px;
-  line-height: 62px;
+  font-size: 2.81rem;
+  line-height: 3.87rem;
   text-align: right;
   text-transform: uppercase;
-  padding-right: 312px;
+  padding-right: 19.5rem;
 }
 
-h4 {
+h4.subtitle {
+  box-sizing: border-box;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 40px;
+  font-size: 1.37rem;
+  line-height: 2.5rem;
   text-align: right;
   text-transform: uppercase;
-  padding-right: 312px;
+  padding-right: 19.5rem;
+  padding-bottom: 21.56rem;
 }

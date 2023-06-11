@@ -89,3 +89,31 @@ h4.subtitle {
   padding-right: 19.5rem;
   padding-bottom: 21.56rem;
 }
+
+/*/ /////////////// Drop-down-menu ////////////////////////*/
+.drop-down-menu-container {
+  display: flex;
+}
+
+.close-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-btn a img {
+  width: 32px;
+  max-height: auto;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 30px;
+  margin-top: 99px;
+  margin-right: 124px;
+}
+
+.dropDown-menu-block ul {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: #ffffff;
+}

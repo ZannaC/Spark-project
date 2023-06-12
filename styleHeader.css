@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  box-sizing: border-box;
+  font-family: Lato;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+[class*="-container"] {
+  max-width: 1900px;
+  margin: 0px auto;
+}
+
+/*//////////////// Header ////////////////////////*/
+.header-container {
+  box-sizing: border-box;
+  background-image: url("images/header-images/background.png");
+  background-repeat: no-repeat;
+  box-shadow: 0rem 0.25rem 3.75rem #c7b7b7;
+  background-color: rgba(236, 236, 236, 1);
+}
+
+.socialMedia-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  padding-top: 0.86rem;
+  padding-right: 8.93rem;
+}
+
+.logo-burgerMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 2.3rem;
+  padding-bottom: 14.37rem;
+}
+
+.logo {
+  box-sizing: border-box;
+  width: 39.43rem;
+  height: 8.18rem;
+  padding-right: 4.81rem;
+}
+
+img.burgerMenu {
+  box-sizing: border-box;
+  height: 3.43rem;
+  padding-right: 8.75rem;
+  color: rgba(97, 84, 84, 1);
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.81rem;
+  line-height: 3.87rem;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 19.5rem;
+}
+
+h4.subtitle {
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 1.37rem;
+  line-height: 2.5rem;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 19.5rem;
+  padding-bottom: 21.56rem;
+}
+
+/*/ /////////////// Drop-down-menu ////////////////////////*/
+.drop-down-menu-container {
+  background-color: #000000;
+  opacity: 0.9;
+  display: none;
+}
+
+.search-close-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-btn {
+  width: 388px;
+  height: 40px;
+  margin-left: 756px;
+  margin-top: 220px;
+  background: #ffffff;
+  border-radius: 26px;
+}
+
+.search img {
+  width: 24px;
+  max-height: auto;
+  padding: 30px;
+  left: 357px;
+}
+
+.close-btn {
+  margin-top: 99px;
+  margin-right: 124px;
+}
+
+.close-btn img {
+  width: 32px;
+  max-height: auto;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 30px;
+  margin-top: 99px;
+}
+
+.dropDown-menu-block a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-left: 32px;
+}
+
+.dropDown-menu-block img.icon {
+  width: 20px;
+  height: auto;
+  padding-right: 32px;
+}

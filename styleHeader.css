@@ -92,28 +92,57 @@ h4.subtitle {
 
 /*/ /////////////// Drop-down-menu ////////////////////////*/
 .drop-down-menu-container {
+  background-color: #000000;
+  opacity: 0.9;
+  display: none;
+}
+
+.search-close-block {
   display: flex;
+  justify-content: space-around;
+}
+
+.search-btn {
+  width: 388px;
+  height: 40px;
+  margin-left: 756px;
+  margin-top: 220px;
+  background: #ffffff;
+  border-radius: 26px;
+}
+
+.search img {
+  width: 24px;
+  max-height: auto;
+  padding: 30px;
+  left: 357px;
 }
 
 .close-btn {
-  display: flex;
-  justify-content: flex-end;
+  margin-top: 99px;
+  margin-right: 124px;
 }
 
-.close-btn a img {
+.close-btn img {
   width: 32px;
   max-height: auto;
   background-color: rgba(0, 0, 0, 1);
   padding: 30px;
   margin-top: 99px;
-  margin-right: 124px;
 }
 
-.dropDown-menu-block ul {
+.dropDown-menu-block a {
   font-style: normal;
   font-weight: 600;
   font-size: 29px;
   line-height: 35px;
   text-transform: capitalize;
   color: #ffffff;
+  padding-left: 32px;
+}
+
+.dropDown-menu-block img.icon {
+  width: 20px;
+  height: auto;
+  padding-right: 32px;
 }

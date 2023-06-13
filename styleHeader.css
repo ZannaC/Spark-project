@@ -94,7 +94,7 @@ h4.subtitle {
 .drop-down-menu-container {
   background-color: #000000;
   opacity: 0.9;
-  display: none;
+  /* display: none; */
 }
 
 .search-close-block {
@@ -103,46 +103,50 @@ h4.subtitle {
 }
 
 .search-btn {
-  width: 388px;
-  height: 40px;
-  margin-left: 756px;
-  margin-top: 220px;
+  width: 24.25rem;
+  height: 2.5rem;
+  margin-left: 47.25rem;
+  margin-top: 13.75rem;
+  margin-bottom: 10rem;
   background: #ffffff;
-  border-radius: 26px;
+  border-radius: 1.62rem;
 }
 
-.search img {
-  width: 24px;
-  max-height: auto;
-  padding: 30px;
-  left: 357px;
+.search-btn img {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.5rem 0.62rem 0.5rem 22.12rem;
 }
 
 .close-btn {
-  margin-top: 99px;
-  margin-right: 124px;
+  margin-top: 6.18rem;
+  margin-right: 7.75rem;
+  margin-left: 35rem;
 }
 
 .close-btn img {
-  width: 32px;
+  width: 2rem;
   max-height: auto;
   background-color: rgba(0, 0, 0, 1);
-  padding: 30px;
-  margin-top: 99px;
+  padding: 1.87rem;
+}
+
+.dropDown-menu-block {
+  padding-bottom: 26.31rem;
 }
 
 .dropDown-menu-block a {
   font-style: normal;
   font-weight: 600;
-  font-size: 29px;
-  line-height: 35px;
+  font-size: 1.81rem;
+  line-height: 2.18rem;
   text-transform: capitalize;
   color: #ffffff;
-  padding-left: 32px;
+  padding-left: 53.81rem;
 }
 
 .dropDown-menu-block img.icon {
-  width: 20px;
+  width: 1.25rem;
   height: auto;
-  padding-right: 32px;
+  padding-right: 2rem;
 }

@@ -105,3 +105,27 @@ document.addEventListener("DOMContentLoaded", function () {
     btnElement.appendChild(btnArrowElement);
   });
 });
+
+/*///////////////////////////////////////////////////*/
+const burgerMenu = document.querySelector(".burgerMenu");
+const dropDownMenu = document.querySelector(".drop-down-menu-container");
+
+burgerMenu.addEventListener("click", function () {
+  // Toggle the display of the overlay menu
+  if (dropDownMenu.style.display === "none") {
+    dropDownMenu.style.display = "block";
+  } else {
+    dropDownMenu.style.display = "none";
+  }
+});
+
+const closeDropDownMenu = document.querySelector(".close-btn");
+
+closeDropDownMenu.addEventListener("click", function () {
+  // Toggle the display of the overlay menu
+  if (dropDownMenu.style.display === "block") {
+    dropDownMenu.style.display = "none";
+  } else {
+    dropDownMenu.style.display = "block";
+  }
+});

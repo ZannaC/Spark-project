@@ -9,6 +9,65 @@
   [class*="-container"] {
     max-width: 30rem;
   }
+
+  /* Drop-down-menu */
+  .drop-down-menu-container {
+    width: 100%;
+  }
+
+  .search-close-block {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-btn {
+    width: 16rem;
+    height: 2.4rem;
+    margin: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .search-btn img {
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 0.6rem 0.6rem 0.6rem 13.5rem;
+  }
+
+  .close-btn {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+    margin-left: 20rem;
+  }
+
+  .close-btn img {
+    width: 1rem;
+    max-height: auto;
+    padding: 0.87rem;
+  }
+
+  .dropDown-menu-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3.1rem;
+  }
+
+  .dropDown-menu-block a {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-transform: capitalize;
+    padding-left: 0rem;
+  }
+
+  .dropDown-menu-block img.icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    padding-right: 1rem;
+  }
+
+  /* Header*/
   .header-container {
     background-size: contain;
     background-position: top;
@@ -49,6 +108,7 @@
     padding: 0.8rem;
     padding-bottom: 0.5rem;
   }
+
   /*  what we offer  */
 
   h2.title {
@@ -115,7 +175,9 @@
     width: 20%;
     height: auto;
   }
+
   /*  full service agency  */
+
   h4 {
     font-size: 1.1rem;
     padding-bottom: 1rem;
@@ -197,6 +259,7 @@
   }
 
   /*  footer  */
+
   .footer-container {
     display: flex;
     flex-direction: column;

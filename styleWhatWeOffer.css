@@ -40,6 +40,7 @@
   height: 15.62rem;
   filter: drop-shadow(0rem 0.25rem 2.06rem rgba(108, 94, 57, 0.6));
   border-radius: 1.43rem;
+  background-size: cover;
 }
 
 .whatWeOffer-block-info {

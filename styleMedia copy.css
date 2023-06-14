@@ -343,4 +343,10 @@
   .full-service-agency-container {
     padding: 5.88% 6.51% 3.05% 6.75%;
   }
+
+  #whatWeOffer {
+    /* flex-wrap: nowrap; */
+    width: 30rem;
+    justify-content: center;
+  }
 }

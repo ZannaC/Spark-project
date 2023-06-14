@@ -1,0 +1,352 @@
+/*320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV*/
+
+/*/////////// 320px PORTRAIT /////////////////////////*/
+@media (max-width: 688px) and (orientation: portrait) {
+  .title {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .colored-text {
+    color: rgba(254, 200, 61, 1);
+  }
+
+  .bold-text {
+    font-size: 1.25rem;
+    letter-spacing: 0.01rem;
+    padding-top: 1rem;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+  }
+
+  .full-service-agency-statistics h5 {
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.25rem;
+  }
+
+  .full-service-agency-statistics {
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    max-width: 75%;
+  }
+
+  .full-service-agency-statistics img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .full-service-agency-globe {
+    display: none;
+  }
+
+  .full-service-agency-container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    /* height: 85rem; */
+  }
+
+  .full-service-agency-columns {
+    justify-content: center;
+    /* height: 48.25rem; */
+    padding: 0.05% 0.05% 0.05% 0.05%;
+  }
+
+  .full-service-agency-bench {
+    /* padding-top: 1rem; */
+    height: 26rem;
+  }
+
+  .full-service-agency-bench-image {
+    position: relative;
+    width: 20rem;
+    height: auto;
+    background-position: bottom center;
+    padding-top: 1rem;
+  }
+
+  .full-service-agency-bench-subscribe {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    max-width: 19.32rem;
+    max-height: 14.82rem;
+    padding: 0.5%;
+  }
+
+  .bench-subscribeBtn img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /*//////////////////////////////////////////////////////////*/
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.93% 2.77% 1.88% 2.89%;
+    gap: 2.5%;
+  }
+
+  .services-block {
+    display: flex;
+    order: 1;
+  }
+
+  .about-block {
+    display: flex;
+    order: 2;
+  }
+
+  .logo-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 3;
+  }
+
+  .footer-logo {
+    width: 50%;
+    height: auto;
+    max-width: 50%;
+    order: 3;
+    padding-top: 0.5rem;
+  }
+
+  .all-rights {
+    order: 4;
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .footer-subscribe {
+    order: 1;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .email-btn {
+    padding-top: 0.47rem;
+    order: 2;
+  }
+
+  li {
+    padding-bottom: 0.31rem;
+  }
+
+  .btn-socialMedia {
+    display: flex;
+    flex-direction: row-reverse;
+    order: 9;
+  }
+
+  .socialMedia {
+    padding-top: 1.5rem;
+  }
+
+  .socialMedia img {
+    padding-left: 0.63rem;
+  }
+}
+
+/*/////////// 320px LANDSCAPE /////////////////////////*/
+@media (max-height: 688px) and (orientation: landscape) {
+  .full-service-agency-statistics {
+    justify-content: center;
+    width: 75%;
+    height: auto;
+    max-width: 75%;
+  }
+
+  .full-service-agency-globe {
+    display: none;
+  }
+
+  .full-service-agency-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0% 2% 0% 2%;
+    /* height: 85rem; */
+  }
+
+  .full-service-agency-columns {
+    justify-content: center;
+    height: 48.25rem;
+    padding: 3.8% 0.1% 4.1% 0.1%;
+  }
+
+  .full-service-agency-bench-image {
+    position: relative;
+    width: 48rem;
+    height: auto;
+    background-position: bottom center;
+  }
+  .full-service-agency-bench-subscribe {
+    position: absolute;
+    left: 23%;
+    top: 5%;
+    box-sizing: border-box;
+    max-width: 25.77rem;
+    max-height: 19.77rem;
+    padding: 0.5%;
+  }
+  /*//////////////////////////////////////////////////////////*/
+  .footer-container {
+    padding: 0.93% 2.77% 1.88% 2.89%;
+    gap: 2.5%;
+  }
+
+  .footer-logo {
+    width: 70%;
+    height: auto;
+    max-width: 70%;
+    padding-top: 0.5rem;
+  }
+
+  .all-rights {
+    font-size: 0.8rem;
+  }
+
+  .footer-subscribe {
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .email-btn {
+    padding-top: 0.47rem;
+  }
+
+  li {
+    padding-bottom: 0.2rem;
+  }
+
+  .socialMedia {
+    padding-top: 1.5rem;
+  }
+
+  .socialMedia img {
+    padding-left: 0.63rem;
+  }
+}
+
+/* Small screens */
+@media (min-width: 767px) {
+  .footer-container {
+    padding: 2.56% 4.76% 5.04% 4.97%;
+    gap: 9%;
+  }
+
+  .full-service-agency-container {
+    padding: 5.88% 2.17% 3.05% 2.25%;
+    justify-content: center;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .colored-text {
+    color: rgba(254, 200, 61, 1);
+  }
+
+  .bold-text {
+    font-size: 1.87rem;
+    font-weight: 700;
+    letter-spacing: 0.01rem;
+    padding-top: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+  }
+
+  h5 {
+    /* display: block; */
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .full-service-agency-statistics {
+    justify-content: center;
+    width: 75%;
+    height: auto;
+    max-width: 75%;
+  }
+
+  .full-service-agency-globe {
+    display: none;
+  }
+
+  .full-service-agency-container {
+    display: flex;
+    justify-content: flex-center;
+    padding: 0% 2% 0% 2%;
+    height: 85rem;
+  }
+
+  .full-service-agency-columns {
+    justify-content: center;
+    height: 48.25rem;
+    padding: 3.8% 0.1% 4.1% 0.1%;
+  }
+
+  .full-service-agency-bench-image {
+    position: relative;
+    width: 48rem;
+    height: auto;
+    background-position: bottom center;
+  }
+  .full-service-agency-bench-subscribe {
+    position: absolute;
+    left: 23%;
+    top: 5%;
+    box-sizing: border-box;
+    max-width: 25.77rem;
+    max-height: 19.77rem;
+    padding: 0.5%;
+  }
+
+  .footer-container {
+    padding: 2.56% 5.63% 5.04% 5.63%;
+    gap: 10%;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1024px) {
+  .footer-container {
+    padding: 2.56% 7.44% 5.04% 7.76%;
+    gap: 11%;
+  }
+  .full-service-agency-container {
+    padding: 5.88% 6.51% 3.05% 6.75%;
+  }
+
+  #whatWeOffer {
+    /* flex-wrap: nowrap; */
+    width: 30rem;
+    justify-content: center;
+  }
+}

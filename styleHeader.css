@@ -23,7 +23,7 @@
 }
 
 [class*="-container"] {
-  max-width: 1900px;
+  max-width: 118.75rem;
   margin: 0px auto;
 }
 

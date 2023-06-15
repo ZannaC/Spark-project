@@ -4,7 +4,7 @@
 1025px — 1200px: Desktops, large screens
 1201px and more —  Extra large screens, TV*/
 
-/*/////////// 320px PORTRAIT /////////////////////////*/
+/*/////////// 481px-768px PORTRAIT /////////////////////////*/
 @media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
   [class*="-container"] {
     max-width: 48rem;

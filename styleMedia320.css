@@ -176,6 +176,30 @@
     height: auto;
   }
 
+  #loadMore {
+    width: 200px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgba(254, 200, 61, 1);
+    transition: 0.3s;
+  }
+  #loadMore:hover {
+    color: rgba(254, 200, 61, 1);
+    background-color: #fff;
+    border: 1px solid #000;
+    text-decoration: none;
+  }
+  /* .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  } */
+
   /*  full service agency  */
 
   h4 {
